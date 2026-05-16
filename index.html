@@ -33,7 +33,7 @@
             </header>
             <div class="container">
                 <div class="hero-pic">
-                    <img src="assets/images/main_photo.jpg" alt="=Adam Al Zoghby">
+                    <img src="assets/images/main_photo.jpg" alt="Adam Al Zoghby">
                 </div>
                 <div class="hero-text">
                     <h5>Hi, I'm <span class="input"></span></h5>
@@ -44,9 +44,9 @@
                         <a href="#projects" class="btn">View Projects</a>
                     </div>
                     <div class="social">
-                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/AdamAlZoghby/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/adam-youssef-al-zoghby-65a678333" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/__adam_zoghby__/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                      5 mm diameter. It had a total weight of only 5kg, while being capable of supporting more than 80
                      kg.</p>
                  <div class="project-links">
-                     <a href="assets/posters/bridge.pdf" target="_blank" class="project-btn">
+                     <a href="assets/posters/bridge.pdf" target="_blank" type="application/pdf" class="project-btn">
                          <i class="fa-solid fa-file-pdf"aria-hidden="true"></i>View Poster</a>
                  </div>
              </div>
@@ -153,7 +153,7 @@
                  <p>Built a functional digital ohmmeter using salvaged e-waste components. It was programmed using an
                      AT-Mega microcontroller and had an accuracy of 96.8%.</p>
                  <div class="project-links">
-                     <a href="assets/posters/ohmmeter.pdf" target="_blank" class="project-btn">
+                     <a href="assets/posters/ohmmeter.pdf" target="_blank" type="application/pdf" class="project-btn">
                          <i class="fa-solid fa-file-pdf"aria-hidden="true"></i>View Poster</a>
                  </div>
              </div>
@@ -170,11 +170,10 @@
                  integrating different sensors, actuators, and real-time data monitoring. It is based on a feedback algorith where,
                  when any environmental parameter is out of the optimal range, the actuator for it is commanded to work.</p>
                  <div class="project-links">
-                     <a href="assets/posters/greenhouse.pdf" target="_blank" class="project-btn">
+                     <a href="assets/posters/greenhouse.pdf" target="_blank" type="application/pdf" class="project-btn">
                          <i class="fa-solid fa-file-pdf"aria-hidden="true"></i>View Poster</a>
-                     <a href="assets/posters/greenhouse_schematic.pdf" target="_blank" class="project-btn">
+                     <a href="assets/posters/greenhouse_schematic.pdf" target="_blank" type="application/pdf" class="project-btn">
                          <i class="fa-solid fa-diagram-project"aria-hidden="true"></i>Schematic</a>
-                     </a>
                  </div>
              </div>
          </div>
@@ -189,9 +188,8 @@
                  <div class="project-links">
                      <a href="https://zoghby.itch.io/rhythm-ravage" target="_blank" class="project-btn">
                          <i class="fa-solid fa-gamepad"aria-hidden="true"></i>Play</a>
-                     <a href="https://github.com/Snickkers287/Rhythm-Ravage" target="blank" class="project-btn">
+                     <a href="https://github.com/Snickkers287/Rhythm-Ravage" target="_blank" class="project-btn">
                          <i class="fa-brands fa-github"aria-hidden="true"></i>GitHub Rep</a>
-                     </a>
                  </div>
              </div>
          </div>
@@ -229,6 +227,55 @@
  </div>
  </div>
 </section>
+<section class="contact-section" id="contact">
+    <div class="wrapper">
+        <div class="section-header">
+            <h2>Contact <span>Me</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="contact-intro">Have a question? Feel free to reach out</p>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-envelope"aria-hidden="true"></i> </div>
+                    <div> <span class="info-label">Email</span> <a href="mailto:adamyoussef1082@gmail.com" class="info-value">adamyoussef1082@gmail.com</a></div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                    <div> <span> <span class="info-label">Location</span><span class="info-value">Suez, Egypt</span></span></div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/adam-youssef-al-zoghby-65a678333" target="_blank" aria-label="LinkedIn" class="social-btn">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/Snickkers287/" target="_blank" aria-label="GitHub" class="social-btn">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/__adam_zoghby__/" target="_blank" aria-label="Instagram" class="social-btn">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/xpqbvbre" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required></div>
+                <div class="form-group"><label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required></div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+                </div>
+                <button type="submit" class="btn active submit-btn">
+                    <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <p>Designed & Built by <span>Adam Al-Zoghby</span></p>
+    </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 <script>
