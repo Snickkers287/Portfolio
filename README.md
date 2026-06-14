@@ -1,61 +1,54 @@
-# Personal Portfolio Website
-
-A clean, responsive personal portfolio website built with vanilla HTML, CSS, and JavaScript, no frameworks, no dependencies.
-
-🌐 **Live Site:** [snickkers287.github.io/Portfolio](https://snickkers287.github.io/Portfolio/)
+# Adam Al Zoghby, Personal Portfolio
+[Live Demo](https://snickkers287.github.io/Portfolio/)
 
 ---
 
-## Description
-
-This portfolio serves as a central hub to showcase my work, technical skills, and background as a student, researcher, and developer. It's designed to be fast, lightweight, and easy to navigate, built entirely from scratch without any external libraries or frameworks.
-
----
-
-## Sections
-
-- **About**: A brief introduction covering who I am and what I do
-- **Skills**: A visual overview of the technologies and tools I work with
-- **Projects**: Highlighted work with descriptions and links
-- **Contact**: A section for getting in touch directly
+This portfolio was built from scratch using a tutorial from Youtube as a guide on how to start it up. It is built using HTML and CSS, where more search was done as I'm going. I made it as i wanted a place where i can store my progress and update as I'm progressing in life, which it did correctly except that im currently stagnant in developing new projects.
+The goal from this was to show who I am, what I've built, and what i care about in various fields whether it is engineering, programming, IoT, and researching.
 
 ---
 
-## Tech Stack
-
-|Layer|Technology|
-|---|---|
-|Markup|HTML5|
-|Styling|CSS3|
-|Interactivity|Vanilla JavaScript|
-|Hosting|GitHub Pages|
-
----
-
-## Project Structure
-
-```
-Portfolio/
-├── index.html       # Main entry point
-├── style.css        # All styles
-├── script.js        # JavaScript logic
-└── assets/          # Images and other static files
-```
+## Content
+### This portfolio has:
+- A hero section that introduces me with some typing animation
+- An about section that explains it more
+- A skills section covering my scientific and technical side
+- A projects sections that contains the most important projects I've done till now throughout highschool. Each project got its poster u can open or a demo u can view
+- A contact section with all my socials and a form that reaches my inbox (try it rn)
 
 ---
 
-## Contributing
-
-This is a personal portfolio, so contributions aren't expected, but feedback is always welcome! If you spot a bug or have a suggestion, feel free to:
-
-1. [Open an issue](https://github.com/snickkers287/Portfolio/issues)
-2. Fork the repo and submit a pull request with your proposed changes
-3. Reach out via the contact section on the live site
-
-Please keep any suggestions constructive and relevant to the scope of a personal portfolio.
+## What I learned
+Since this counts as my first time building an actual website, alot of things went wrong and are worth noting:
+- The hamburger menu took me alot of time and work as every change done in the site affected it. This was mainly because the original approach used a position absolute, meaning that the button kept floating off to nowhere. It was then rebuilt with a proper flex item
+- Had a problem in CSS with closing braces as wrong ones got paired with each other making things disappear. had to revise the whole code many times to make sure everything is in its place
+- Didnt know that when opening the website's PDFs from a local host that they would download instead of just opening in a new tab.
 
 ---
 
-## License
+## What it's built with
+- HTML and CSS for everything
+- Typed.js for the typing effects
+- Font Awesome 6 via CDN for all icons across the site
+- Formspree for the contact form
+- Github for hosting
 
-This project is open source and available under the MIT License.
+---
+
+## for using and forking
+- Download the repo or clone it
+- open the html file in browser
+- to make a contact form ur own just go to Formspree and u will figure it out
+- push to github and enable github pages
+
+---
+
+## Contact
+- Email: adamyoussef1082@gmail.com
+- LinkedIn: https://www.linkedin.com/in/adam-youssef-al-zoghby-65a678333
+- Github: https://github.com/Snickkers287
+- Instagram: https://www.instagram.com/__adam_zoghby__/
+
+---
+
+This portfolio isn't, and will never be finished, as long as I got the mind to do new things
